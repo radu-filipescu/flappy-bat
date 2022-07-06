@@ -1,0 +1,9 @@
+<div *ngFor="let spike of spikeArray">
+  <div *ngIf="spike.isUp" style="left: {{spike.position}}vw" class="single-spike-up">
+    <img style="height: {{spike.height}}vh" src="assets/images/stalactite{{spike.type}}.png">
+  </div>
+
+  <div *ngIf="!spike.isUp" style="left: {{spike.position}}vw" class="single-spike-down">
+    <img style="height: {{spike.height}}vh" src="assets/images/stalactite{{spike.type}}.png">
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.single-spike-up {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+}
+
+.single-spike-down {
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
+  transform: scaleY(-1);
+}

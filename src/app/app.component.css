@@ -1,0 +1,33 @@
+::ng-deep * {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.bkg {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(27,27,27);
+  background: linear-gradient(21deg, rgba(27,27,27,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.gameover {
+  height: 80vh;
+  position: absolute;
+  top: 15vh;
+  left: 35vw;
+  color: white;
+  z-index: 2000;
+}
+
+.score {
+  height: 10vh;
+  position: absolute;
+  top: 5vh;
+  left: 48vw;
+  color: yellow;
+  font-size: 50px;
+  font-family: Gotham;
+  z-index: 2000;
+}
